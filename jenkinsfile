@@ -1,10 +1,5 @@
-pipeline {
-    agent any
-    stages {
-        stage('build') {
-            steps {
-                sh 'dir'
-            }
-        }
+node{
+    stage('Build'){
+        sh 'dir'
     }
 }
