@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                PowerShell ("""dir""")
+                echo "hello world!"
             }
         }
     }
